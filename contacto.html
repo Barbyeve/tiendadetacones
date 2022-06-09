@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short cut icon" href="./img/logo_rojo_plata.jpg">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satisfy&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--iconos  -->
+    <script src="https://kit.fontawesome.com/2f39b6af35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Tienda de Tacones</title>
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <!-- "Logo" -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/logo_rojo.jpg" alt=" Logo-Tienda-de-tacones">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <!-- MENU -->
+                <li class="menu"><a href="./index.html" class="link">INICIO</a></li>
+                <li class="menu"><a href="./nueva_temporada.html" class="link">NUEVA TEMPORADA</a></li>
+                <li class="menu"><a href="./sucursales.html" class="link">SUCURSALES</a></li>
+                <li class="menu"><a href="./quienes_somos.html" class="link">QUIENES SOMOS</a></li>
+                <li class="menu"><a href="./contacto.html" class="link">CONTACTO</a></li>
+        </nav>
+    </header>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section class="sectionFormulario">
+            <form action="#" method="get">
+                <div class="datosContacto">
+                    <input type="text" placeholder="Nombre" name="nombre">
+                    <input type="text" placeholder="Apellido" name="apellido">
+                    <p>Fecha de nacimiento</p>
+                    <input type="date" placeholder="Fecha de nacimiento" name="fecha_de_nac">
+                    <br>
+                    <input type="email" placeholder="Mail" name="mail">
+                    <input type="tel" placeholder="Celular" name="mobile">
+                    <p>Seleccione el número de calzado: </p>
+                    <select name="Num_calzado">
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                    </select>
+                    <p>Dejanos tu consulta</p>
+                    <textarea name="coment" id="" cols="60" rows="10"></textarea>
+                    <br>
+                    <span>Quiero recibir promociones</span>
+                    <input type="checkbox">
+                    <br>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+            </form>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/tiendadetacones" target="_blank" class="link">
+                    <i class="fa-brands fa-facebook-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/tiendadetacones/" target="_blank" class="link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://wa.me/5493413242092" target="_blank" class="link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
